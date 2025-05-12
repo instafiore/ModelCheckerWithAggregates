@@ -30,7 +30,7 @@ Ensure you have the following dependencies installed:
    conda env update --file environment.yaml
    ```
 
-
+* is mandatory
 ---
 
 ## Running one instance
