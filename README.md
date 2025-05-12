@@ -80,7 +80,7 @@ Ensure you have the following dependencies installed:
 5. **Run experiments :**
    ```bash
    cd tests/expertiments
-    ./run_experiments.sh experiments.py <name_experiements>
+   ./run_experiments.sh experiments.py <name_run>
     ```
 
 ---
