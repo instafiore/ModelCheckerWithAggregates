@@ -36,7 +36,7 @@ Ensure you have the following dependencies installed:
 ## Running one instance
 
 ### **For running a pair encoding* and instance :*
-1. **Build propagator:**
+1. **Build propagator:** *
    ```bash
    cd /prop_unf/propagator_c
    make clean
