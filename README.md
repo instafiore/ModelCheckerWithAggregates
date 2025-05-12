@@ -1,6 +1,6 @@
 # ModelCheckerWithAggregates
 
-A novel propagator for unfounded sets for non-HFC supporting recursive aggregates.
+A novel propagator for unfounded sets for non-HFC components supporting recursive aggregates.
 
 
 ## Install
