@@ -1,6 +1,6 @@
 # ModelCheckerWithAggregates
 
-A novel propagator for unfounded sets for non-HFC supporting recursive aggregates.
+A novel propagator for unfounded sets for non-HFC components supporting recursive aggregates.
 
 
 ## Install
@@ -46,7 +46,7 @@ Ensure you have the following dependencies installed:
    ```bash
     python prop_unf/run.py -e=<encoding>* -i=<instance>
    ```
-
+- \* is mandatory
 3. **Help menu propagator:**
    ```bash
     python prop_unf/run.py -h
@@ -80,7 +80,7 @@ Ensure you have the following dependencies installed:
 5. **Run experiments :**
    ```bash
    cd tests/expertiments
-    ./run_experiments.sh experiments.py <name_experiements>
+   ./run_experiments.sh experiments.py <name_run>
     ```
 
 ---
