@@ -46,6 +46,11 @@ Ensure you have the following dependencies installed:
    ```bash
     python prop_unf/run.py -e=<encoding>* -i=<instance>
    ```
+
+3. **Help menu propagator:**
+   ```bash
+    python prop_unf/run.py -h
+   ```
    
 ---
 ## Running Experiments
