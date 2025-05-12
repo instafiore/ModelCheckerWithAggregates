@@ -79,7 +79,22 @@ EncodingBuilder* ReductEncodingBuilder::withWeightRule(NonHFCPropagator* prop, c
     for(int i = 0 ; i < rule->body_size; ++i){
         clingo_literal_t l = rule->get_weighted_body()[i].literal;
         clingo_weight_t w = rule->get_weighted_body()[i].weight ;
-        AggregateElement e = {.atomName = createLiteralString(l), .weight = w};
+        std::string l_str ;
+        // ----
+        if(l > 0){
+            l_str = createLiteralString(l) ;
+        }else{
+            l_str = createLiteralString(std::abs(l));
+            bool intern = prop->component->external_atoms.find(std::abs(l)) == prop->component->external_atoms.end() ;
+            if(intern){
+                l_str = negateLiteral(createPrime(l_str));
+            }else{
+                l_str = negateLiteral(l_str);
+            }
+        }
+        // ----
+        // AggregateElement e = {.atomName = createLiteralString(l), .weight = w};
+        AggregateElement e = {.atomName = l_str, .weight = w};
         elementsRightDirection.push_back(e);
     }
 
