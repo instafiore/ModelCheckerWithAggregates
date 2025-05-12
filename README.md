@@ -30,7 +30,7 @@ Ensure you have the following dependencies installed:
    conda env update --file environment.yaml
    ```
 
-* is mandatory
+
 ---
 
 ## Running one instance
@@ -46,7 +46,7 @@ Ensure you have the following dependencies installed:
    ```bash
     python prop_unf/run.py -e=<encoding>* -i=<instance>
    ```
-
+- \* is mandatory
 3. **Help menu propagator:**
    ```bash
     python prop_unf/run.py -h
