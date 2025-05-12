@@ -118,6 +118,8 @@ EncodingBuilder* UnfoundedEncodingBuilder::withWeightRule(NonHFCPropagator* prop
         bool ext = prop->component->external_atoms.find(std::abs(l)) != prop->component->external_atoms.end() ;
         if(l>0 && !ext){
             name = createHAtom(name);
+        }else if(l < 0){
+            name = negateLiteral(createLiteralString(std::abs(l)));
         }
         AggregateElement e = {.atomName = name, .weight = w};
         elementsRightDirection.push_back(e);
