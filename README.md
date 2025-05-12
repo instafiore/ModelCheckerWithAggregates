@@ -44,7 +44,7 @@ Ensure you have the following dependencies installed:
    ```
 2. **Run propagator:**
    ```bash
-    python3 prop_unf/run.py -e=<encoding>* -i=<instance>
+    python prop_unf/run.py -e=<encoding>* -i=<instance>
    ```
    
    *it is mandatory
@@ -93,6 +93,3 @@ export CPU=<CPU_INDEX>
 
 - Make sure to replace `<path_to_repo>` and `<path_to_RecursiveAggregatePropagator>` with the actual paths on your system.
 - If you encounter any issues during setup, verify your dependencies and paths are correctly set.
-# ModelCheckerWithAggregates
-# ModelCheckerWithAggregates
-# ModelCheckerWithAggregates

@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -Wall -Wextra -std=c++17 -I/opt/homebrew/include -I/home/mazzotta/Experiments/solvers/bin_fiorentino/clingo-5.7.1/libclingo -I $(CONDA_PREFIX)/include $(LOGGER_ACTIVE) -O3 $(EXTRA_CFLAGS)
+CFLAGS = -Wall -Wextra -std=c++17 -I/opt/homebrew/include -I $(CONDA_PREFIX)/include $(LOGGER_ACTIVE) -O3 $(EXTRA_CFLAGS)
 LDFLAGS = -L/opt/homebrew/lib -L/home/mazzotta/Experiments/solvers/bin_fiorentino/clingo-5.7.1/manual_build/bin -L$(CONDA_PREFIX)/lib -Wl,-rpath,/opt/homebrew/lib -Wl,-rpath,$(CONDA_PREFIX)/lib -lclingo $(EXTRA_LDFLAGS)
 BUILD_DIR = build
 BIN_DIR = bin
