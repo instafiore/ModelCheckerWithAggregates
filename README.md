@@ -1,6 +1,6 @@
-# RecursiveAggregateReduct
+# ModelCheckerWithAggregates
 
-A new propagator for unfounded sets for non-HFC supporting recursive aggregates.
+A novel propagator for unfounded sets for non-HFC supporting recursive aggregates.
 
 
 ## Install
@@ -69,7 +69,7 @@ Ensure you have the following dependencies installed:
 
 4. **Set the `ROOT` directory of the propagator :**
    ```bash
-    export ROOT=<path>/RecursiveAggregatePropagator
+    export ROOT=<path>/ModelCheckerWithAggregates
     ```
 
 5. **Run experiments :**
@@ -90,5 +90,5 @@ export CPU=<CPU_INDEX>
 
 ## Notes
 
-- Make sure to replace `<path_to_repo>` and `<path_to_RecursiveAggregatePropagator>` with the actual paths on your system.
+- Make sure to replace `<path_to_repo>` and `<path_to_ModelCheckerWithAggregates>` with the actual paths on your system.
 - If you encounter any issues during setup, verify your dependencies and paths are correctly set.
