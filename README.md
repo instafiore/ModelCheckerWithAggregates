@@ -1,7 +1,6 @@
 # ModelCheckerWithAggregates
 
-A novel propagator for unfounded sets for non-HFC components supporting recursive aggregates.
-
+We propose a novel propagator for computing unfounded sets in non-head-cycle-free (non-HCF) components, with extended support for recursive aggregates
 
 ## Install
 
